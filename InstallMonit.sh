@@ -1,9 +1,5 @@
 ﻿#!/bin/sh
 
-#Stop monit service if any
-/etc/init.d/monit stop && update-rc.d -f monit remove
-rm -rf /usr/bin/monit
-
 # download monit binary
 cd /opt
 wget http://wevestorage.blob.core.windows.net/monit/monit-5.16-linux-x64.tar.gz
