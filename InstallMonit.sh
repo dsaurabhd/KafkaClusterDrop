@@ -48,5 +48,4 @@ EOL
 # Reload config and start
 initctl reload-configuration
 start monit
-
-monit status
+status monit
